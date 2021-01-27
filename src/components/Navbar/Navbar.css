@@ -1,16 +1,15 @@
 /** @format */
 
 .navbar {
-	background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+	background: rgb(248, 196, 113);
 	height: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	position: sticky;
 	top: 0;
 	z-index: 999;
-	border-radius: 3px;
 }
 
 .navbar-container {
@@ -22,7 +21,6 @@
 }
 
 .navbar-logo {
-	color: #fff;
 	justify-self: start;
 	margin-left: 20px;
 	cursor: pointer;
@@ -62,8 +60,7 @@
 }
 
 .nav-links:hover {
-	border-bottom: 4px solid #fff;
-	transition: all 0.2s ease-out;
+	transition: all 0.5s ease-out;
 }
 
 .fa-bars {
@@ -121,6 +118,11 @@
 		top: 0;
 		left: 0;
 		transform: translate(25%, 50%);
+	}
+
+	.logo img {
+		height: auto;
+		width: auto;
 	}
 
 	.menu-icon {
