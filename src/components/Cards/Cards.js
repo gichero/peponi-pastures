@@ -3,6 +3,7 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem/CardItem";
+import Tractor01 from "../../images/tractor01.jpg";
 
 const Cards = () => {
 	return (
@@ -11,7 +12,78 @@ const Cards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<CardItem />
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
+						<CardItem
+							src={Tractor01}
+							text="Fixing the Tractor"
+							label="tractor"
+							path="/projects"
+						/>
 					</ul>
 				</div>
 			</div>
