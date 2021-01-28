@@ -30,42 +30,8 @@ const Cards = () => {
 							label="tractor"
 							path="/projects"
 						/>
-						<CardItem
-							src={Tractor01}
-							text="Fixing the Tractor"
-							label="tractor"
-							path="/projects"
-						/>
-						<CardItem
-							src={Tractor01}
-							text="Fixing the Tractor"
-							label="tractor"
-							path="/projects"
-						/>
-						<CardItem
-							src={Tractor01}
-							text="Fixing the Tractor"
-							label="tractor"
-							path="/projects"
-						/>
-						<CardItem
-							src={Tractor01}
-							text="Fixing the Tractor"
-							label="tractor"
-							path="/projects"
-						/>
-						<CardItem
-							src={Tractor01}
-							text="Fixing the Tractor"
-							label="tractor"
-							path="/projects"
-						/>
-						<CardItem
-							src={Tractor01}
-							text="Fixing the Tractor"
-							label="tractor"
-							path="/projects"
-						/>
+					</ul>
+					<ul className="cards__items">
 						<CardItem
 							src={Tractor01}
 							text="Fixing the Tractor"
