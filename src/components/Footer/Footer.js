@@ -30,7 +30,6 @@ const Footer = () => {
 				<div className="footer-link-wrapper">
 					<div class="footer-link-items">
 						<h2>About Us</h2>
-						<Link to="/">Testimonials</Link>
 						<Link to="/">Careers</Link>
 						<Link to="/">Investors</Link>
 					</div>

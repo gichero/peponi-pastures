@@ -1,28 +1,44 @@
 /** @format */
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.peponi-logo {
+	background: no-repeat;
+	max-width: 100%;
+	display: block;
+}
+.peponi-about {
+	font-size: 1.4em;
+}
+
 .peponi-container {
-	background: center center/cover no-repeat;
-	height: 100vh;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	object-fit: contain;
+	padding: 3.5em 2em;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 4em;
+	line-height: 1.6;
 }
 
-.peponi-container > h2 {
-	color: black;
-	font-size: 100px;
-	margin-top: -100px;
+.peponi-title {
+	position: relative;
+	text-align: center;
 }
 
-.peponi-container > p {
-	margin-top: 8px;
-	color: black;
-	font-size: 1.2em;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
+.peponi-title ::after {
+	display: block;
+	width: 2em;
+	height: 1px;
+	margin: 0.5em auto 1em;
+}
+
+.peponi-intro {
+	max-width: 500px;
+	margin: 0 auto;
 }
 
 @media screen and (max-width: 960px) {
