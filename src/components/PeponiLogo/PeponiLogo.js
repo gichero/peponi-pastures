@@ -1,27 +1,58 @@
 /** @format */
 
 import React from "react";
-import PeponiLogo from "../../images/peponi-logo.jpg";
 import "./PeponiLogo.css";
+import peponiLogo from "../../images/peponi-logo.jpg";
 
-const Logo = () => {
+const PeponiLogo = ({
+	lightBg,
+	lightText,
+	lightTextDesc,
+	headline,
+	description,
+	alt,
+	imgStart,
+}) => {
 	return (
-		<div className="peponi-container">
-			<h1 className="peponi-title">About Peponi Pastures</h1>
-			<div className="peponi-intro">
-				<p className="peponi-about">
-					Bacon ipsum dolor amet beef ribs landjaeger capicola picanha. Turkey
-					chislic ground round, strip steak chicken shoulder picanha leberkas
-					kevin tail. Burgdoggen pork belly swine meatloaf kevin. Kevin tail
-					beef tenderloin drumstick buffalo shankle venison boudin biltong
-					meatloaf burgdoggen alcatra meatball.
-				</p>
+		<>
+			<div
+				className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
+			>
+				<div className="container">
+					<div
+						className="row home__hero-row"
+						style={{
+							display: "flex",
+							flexDirection: imgStart === "start" ? "row-reverse" : "row",
+						}}
+					>
+						<div className="col">
+							<div className="home__hero-text-wrapper">
+								<div></div>
+								<h1 className={lightText ? "heading" : "heading dark"}>
+									{headline}
+								</h1>
+								<p
+									className={
+										lightTextDesc
+											? "home__hero-subtitle"
+											: "home__hero=subtitle dark"
+									}
+								>
+									{description}
+								</p>
+							</div>
+						</div>
+						<div className="col">
+							<div>
+								<img src={peponiLogo} alt={alt} className="home__hero-img" />
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div className="peponi-intro">
-				<img src={PeponiLogo} alt="logo" className="peponi-logo" />
-			</div>
-		</div>
+		</>
 	);
 };
 
-export default Logo;
+export default PeponiLogo;
