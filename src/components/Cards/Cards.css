@@ -5,7 +5,11 @@
 	background: #fff;
 }
 
-h1 {
+.cards__headline {
+	margin-bottom: 20px;
+	font-size: 48px;
+	line-height: 1.1;
+	font-weight: 600;
 	text-align: center;
 }
 
