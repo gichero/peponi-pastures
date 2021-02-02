@@ -27,6 +27,11 @@ const PeponiLogo = ({
 						}}
 					>
 						<div className="col">
+							<div>
+								<img src={peponiLogo} alt={alt} className="home__hero-img" />
+							</div>
+						</div>
+						<div className="col">
 							<div className="home__hero-text-wrapper">
 								<div></div>
 								<h1 className={lightText ? "heading" : "heading dark"}>
@@ -41,11 +46,6 @@ const PeponiLogo = ({
 								>
 									{description}
 								</p>
-							</div>
-						</div>
-						<div className="col">
-							<div>
-								<img src={peponiLogo} alt={alt} className="home__hero-img" />
 							</div>
 						</div>
 					</div>
