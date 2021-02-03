@@ -1,7 +1,7 @@
 /** @format */
 
 .navbar {
-	background: #bdd362;
+	background: rgb(189, 211, 98);
 	height: 80px;
 	display: flex;
 	justify-content: center;
