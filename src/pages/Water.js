@@ -3,12 +3,12 @@
 import React from "react";
 import "../App.css";
 
-const Projects = () => {
+const Water = () => {
 	return (
 		<div>
-			<h1>Projects</h1>
+			<h1>Water</h1>
 		</div>
 	);
 };
 
-export default Projects;
+export default Water;
