@@ -3,12 +3,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Home from "./pages/Home";
-import TractorProject from "./pages/TractorProject";
-import Shed from "./pages/Shed";
-import Corn from "./pages/Corn";
-import Water from "./pages/Water";
-import Barley from "./pages/Barley";
+import { Home, TractorProject, Shed, Corn, Water, Barley } from "./pages/index";
 
 const App = () => {
 	return (
