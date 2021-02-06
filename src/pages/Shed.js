@@ -2,12 +2,12 @@
 
 import React from "react";
 import "../App.css";
-import ImageCards from "../components/Cards/ImageCards";
+import ShedImageCards from "../components/Cards/ImageCards/ShedImageCards";
 
 const Shed = () => {
 	return (
 		<>
-			<ImageCards />
+			<ShedImageCards />
 		</>
 	);
 };

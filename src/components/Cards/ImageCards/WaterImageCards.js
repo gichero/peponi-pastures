@@ -1,17 +1,16 @@
 /** @format */
 
 import React from "react";
-import "./Cards.css";
-import ImageCardItem from "./ImageCardItem/ImageCardItem";
-// import { shed01 } from "../../images/ImageFile/ImageFile";
-import shed01 from "../../images/Shed/shed01.jpg";
-import shed02 from "../../images/Shed/shed02.jpg";
-import shed03 from "../../images/Shed/shed03.jpg";
-import shed04 from "../../images/Shed/shed04.jpg";
-import shed05 from "../../images/Shed/shed05.jpg";
-import shed06 from "../../images/Shed/shed06.jpg";
+import "../Cards.css";
+import ImageCardItem from "../ImageCardItem/ImageCardItem";
+import shed01 from "../../../images/Shed/shed01.jpg";
+import shed02 from "../../../images/Shed/shed02.jpg";
+import shed03 from "../../../images/Shed/shed03.jpg";
+import shed04 from "../../../images/Shed/shed04.jpg";
+import shed05 from "../../../images/Shed/shed05.jpg";
+import shed06 from "../../../images/Shed/shed06.jpg";
 
-const ImageCards = () => {
+const WaterImageCards = () => {
 	return (
 		<div className="cards">
 			<h1 className="cards__headline">Shed Images</h1>
@@ -33,4 +32,4 @@ const ImageCards = () => {
 	);
 };
 
-export default ImageCards;
+export default WaterImageCards;

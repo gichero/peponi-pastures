@@ -2,11 +2,12 @@
 
 import React from "react";
 import "../App.css";
+import CornImageCards from "../components/Cards/ImageCards/CornImageCards";
 
 const Corn = () => {
 	return (
 		<div>
-			<h1>Corn</h1>
+			<CornImageCards />
 		</div>
 	);
 };

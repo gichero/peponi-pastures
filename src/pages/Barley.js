@@ -2,11 +2,12 @@
 
 import React from "react";
 import "../App.css";
+import BarleyImageCards from "../components/Cards/ImageCards/BarleyImageCards";
 
 const Barley = () => {
 	return (
 		<div>
-			<h1>Barley</h1>
+			<BarleyImageCards />
 		</div>
 	);
 };
