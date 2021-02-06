@@ -2,7 +2,7 @@
 
 import React from "react";
 import "./Cards.css";
-import ImageCardItem from "./CardItem/CardItem";
+import ImageCardItem from "./ImageCardItem/ImageCardItem";
 import shed01 from "../../images/shed01.jpg";
 import shed02 from "../../images/shed02.jpg";
 import shed03 from "../../images/shed03.jpg";
