@@ -4,7 +4,7 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem/CardItem";
 import Tractor01 from "../../images/tractor01.jpg";
-import shed from "../../images/shed.jpg";
+import shed from "../../images/Shed/shed.jpg";
 import corn from "../../images/corn.jpg";
 import water from "../../images/water.jpg";
 import barley from "../../images/barley.jpg";

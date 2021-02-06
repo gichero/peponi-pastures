@@ -3,12 +3,13 @@
 import React from "react";
 import "./Cards.css";
 import ImageCardItem from "./ImageCardItem/ImageCardItem";
-import shed01 from "../../images/shed01.jpg";
-import shed02 from "../../images/shed02.jpg";
-import shed03 from "../../images/shed03.jpg";
-import shed04 from "../../images/shed04.jpg";
-import shed05 from "../../images/shed05.jpg";
-import shed06 from "../../images/shed06.jpg";
+// import { shed01 } from "../../images/ImageFile/ImageFile";
+import shed01 from "../../images/Shed/shed01.jpg";
+import shed02 from "../../images/Shed/shed02.jpg";
+import shed03 from "../../images/Shed/shed03.jpg";
+import shed04 from "../../images/Shed/shed04.jpg";
+import shed05 from "../../images/Shed/shed05.jpg";
+import shed06 from "../../images/Shed/shed06.jpg";
 
 const ImageCards = () => {
 	return (
