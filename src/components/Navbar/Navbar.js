@@ -36,6 +36,11 @@ const Navbar = () => {
 						<li className="nav-item">
 							<LinkScroll
 								to="cards"
+								smooth={true}
+								duration={500}
+								spy={true}
+								exact="true"
+								offset={-80}
 								className="nav-links"
 								onClick={closeMobileMenu}
 							>
