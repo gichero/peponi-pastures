@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 import "./Navbar.css";
 import Logo from "../../images/tractor-logo.png";
 
@@ -33,13 +34,13 @@ const Navbar = () => {
 						</li>
 
 						<li className="nav-item">
-							<Link
-								to="/projects"
+							<LinkScroll
+								to="cards"
 								className="nav-links"
 								onClick={closeMobileMenu}
 							>
 								Projects
-							</Link>
+							</LinkScroll>
 						</li>
 					</ul>
 				</div>
