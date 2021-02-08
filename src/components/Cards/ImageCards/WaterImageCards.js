@@ -13,7 +13,7 @@ import shed06 from "../../../images/Shed/shed06.jpg";
 const WaterImageCards = () => {
 	return (
 		<div className="cards">
-			<h1 className="cards__headline">Shed Images</h1>
+			<h1 className="cards__headline">Water Images</h1>
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
