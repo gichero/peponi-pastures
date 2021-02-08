@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import "../Cards.css";
+import "../ImageCards/ImageCards.css";
 import ImageCardItem from "../ImageCardItem/ImageCardItem";
 import shed01 from "../../../images/Shed/shed01.jpg";
 import shed02 from "../../../images/Shed/shed02.jpg";
