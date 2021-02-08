@@ -5,8 +5,11 @@ import "./Footer.css";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Logo from "../../images/tractor-logo.png";
+import moment from "moment";
+import Moment from "react-moment";
 
 function Footer() {
+	const currentYear = moment();
 	return (
 		<div className="footer-container">
 			<section className="footer-subscription">
@@ -62,7 +65,9 @@ function Footer() {
 					<div>
 						<img src={Logo} alt="logo" />
 					</div>
-					<small className="website-rights">Peponi Pastures © 2021</small>
+					<small className="website-rights">
+						Peponi Pastures © <Moment format="YYYY">{currentYear}</Moment>
+					</small>
 					<div className="social-icons">
 						<Link
 							className="social-icon-link facebook"
