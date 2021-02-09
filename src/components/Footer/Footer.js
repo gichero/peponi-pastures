@@ -5,11 +5,17 @@ import "./Footer.css";
 import { Button } from "../Button/Button";
 import { Link } from "react-router-dom";
 import Logo from "../../images/tractor-logo.png";
-import moment from "moment";
-import Moment from "react-moment";
+import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {
-	const currentYear = moment();
+	const toggleHome = () => {
+		scroll.scrollToTop();
+	};
+
+	const faceBookURL = "https://www.facebook.com/peponipastures/";
+	const youTubeURL =
+		"https://www.youtube.com/channel/UC8qoVmz1TsP_mPp_zWunATw/videos";
+
 	return (
 		<div className="footer-container">
 			<section className="footer-subscription">
@@ -54,24 +60,29 @@ function Footer() {
 					<div className="footer-link-items">
 						<h2>Social Media</h2>
 						<Link to="/">Instagram</Link>
-						<Link to="/">Facebook</Link>
-						<Link to="/">Youtube</Link>
+						<Link to={{ pathname: faceBookURL }} target="_blank">
+							Facebook
+						</Link>
+						<Link to={{ pathname: youTubeURL }} target="_blank">
+							Youtube
+						</Link>
 						<Link to="/">Twitter</Link>
 					</div>
 				</div>
 			</div>
 			<section className="social-media">
 				<div className="social-media-wrap">
-					<div>
+					<div onClick={toggleHome} className="social-logo">
 						<img src={Logo} alt="logo" />
 					</div>
 					<small className="website-rights">
-						Peponi Pastures © <Moment format="YYYY">{currentYear}</Moment>
+						Peponi Pastures © {new Date().getFullYear()}
 					</small>
+
 					<div className="social-icons">
 						<Link
 							className="social-icon-link facebook"
-							to="/"
+							to={{ pathname: faceBookURL }}
 							target="_blank"
 							aria-label="Facebook"
 						>
@@ -87,7 +98,7 @@ function Footer() {
 						</Link>
 						<Link
 							className="social-icon-link youtube"
-							to="/"
+							to={{ pathname: youTubeURL }}
 							target="_blank"
 							aria-label="Youtube"
 						>

@@ -15,7 +15,7 @@ const ImageCardItem = ({ src, alt }) => {
 							<img
 								src={src}
 								alt={alt}
-								className="cards__item__img"
+								className="cards__item__img-image"
 								style={{
 									borderRadius: "2px",
 									marginTop: "1em",
