@@ -40,11 +40,10 @@
 	font-size: 48px;
 	line-height: 1.1;
 	font-weight: 600;
-	color: #f7f8fa;
 }
 
 .dark {
-	color: #1c2237;
+	color: #014421;
 }
 
 .darkBg {
@@ -52,10 +51,11 @@
 }
 
 .home__hero-subtitle {
-	max-width: 440px;
+	max-width: 100%;
 	margin-bottom: 35px;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #014421;
 }
 
 .home__hero-img-wrapper {
