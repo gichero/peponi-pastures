@@ -5,6 +5,7 @@ import "./Cards.css";
 import CardItem from "./CardItem/CardItem";
 import Tractor01 from "../../images/tractor01.jpg";
 import shed from "../../images/Shed/shed.jpg";
+import onions from "../../images/onions.jpg";
 import corn from "../../images/corn.jpg";
 import water from "../../images/water.jpg";
 import barley from "../../images/barley.jpg";
@@ -29,6 +30,13 @@ const Cards = () => {
 							text="goat shed"
 							label="shed"
 							path="/shed"
+						/>
+						<CardItem
+							src={onions}
+							alt="onions"
+							text="growing onions"
+							label="onions"
+							path="/onions"
 						/>
 					</ul>
 					<ul className="cards__items">

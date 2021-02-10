@@ -3,7 +3,15 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import { Home, Tractor, Shed, Corn, Water, Barley } from "./pages/index";
+import {
+	Home,
+	Tractor,
+	Shed,
+	Corn,
+	Water,
+	Barley,
+	Onions,
+} from "./pages/index";
 
 const App = () => {
 	return (
@@ -17,6 +25,7 @@ const App = () => {
 					<Route path="/corn" exact component={Corn} />
 					<Route path="/water" exact component={Water} />
 					<Route path="/barley" exact component={Barley} />
+					<Route path="/onions" exact component={Onions} />
 				</Switch>
 			</Router>
 		</>
