@@ -34,8 +34,8 @@
 	display: flex;
 	flex: 1;
 	margin: 0 1.5rem;
-	border-radius: 2px;
-	border: 1px solid #228b22;
+	/* border-radius: 2px;
+	border: 1px solid #228b22; */
 	/* outline-style: solid; */
 }
 
@@ -65,8 +65,9 @@
 	font-size: 12px;
 	font-weight: 700;
 	color: #fff;
-	background-color: #00a1e4;
+	background-color: #ef233c;
 	box-sizing: border-box;
+	border-radius: 5px;
 }
 
 .cards__item__img {
@@ -89,13 +90,13 @@
 }
 
 .cards__item__info {
-	padding: 20px 30px 30px;
+	padding: 20px 10px 30px;
+	text-align: center;
 }
 
 .cards__item__text {
-	color: #252e48;
-	font-size: 18px;
-	line-height: 24px;
+	color: #014421;
+	font-size: 22px;
 }
 
 @media only screen and (min-width: 1024px) {
