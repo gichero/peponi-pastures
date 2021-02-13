@@ -27,14 +27,14 @@ const Cards = () => {
 						<CardItem
 							src={shed}
 							alt="shed"
-							text="goat shed"
+							text="Goat Shed"
 							label="shed"
 							path="/shed"
 						/>
 						<CardItem
 							src={onions}
 							alt="onions"
-							text="growing onions"
+							text="Growing Onions"
 							label="onions"
 							path="/onions"
 						/>
@@ -43,21 +43,21 @@ const Cards = () => {
 						<CardItem
 							src={water}
 							alt="water"
-							text="Water irrigation project"
+							text="Water Irrigation Project"
 							label="water"
 							path="/water"
 						/>
 						<CardItem
 							src={corn}
 							alt="corn"
-							text="Growing corn"
+							text="Growing Corn"
 							label="corn"
 							path="/corn"
 						/>
 						<CardItem
 							src={barley}
 							alt="barley"
-							text="Growing barley"
+							text="Growing Barley"
 							label="barley"
 							path="/barley"
 						/>
