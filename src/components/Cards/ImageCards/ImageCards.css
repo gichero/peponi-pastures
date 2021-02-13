@@ -7,10 +7,11 @@
 
 .cards__headline {
 	margin-bottom: 20px;
-	font-size: 48px;
+	font-size: 3em;
 	line-height: 1.1;
 	font-weight: 600;
 	text-align: center;
+	padding: 0.5em;
 }
 
 .cards__text__wrapper {
@@ -18,10 +19,10 @@
 	margin: 0 auto;
 }
 
-.cards_text {
-	line-height: 1.8em;
+.cards__text {
+	line-height: 1.5em;
 	font-size: 1.6em;
-	font-weight: normal;
+	font-weight: 100;
 	color: #014421;
 }
 
@@ -102,10 +103,20 @@
 	.cards__items {
 		display: flex;
 	}
+	.cards_text {
+		line-height: 1.5em;
+		font-size: 1.4em;
+		font-weight: 100;
+	}
 }
 
 @media only screen and (max-width: 1024px) {
 	.cards__item {
 		margin-bottom: 2rem;
+	}
+	.cards__text {
+		line-height: 1.3em;
+		font-size: 1.4em;
+		font-weight: 100;
 	}
 }

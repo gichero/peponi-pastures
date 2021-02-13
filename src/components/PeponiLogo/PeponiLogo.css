@@ -28,7 +28,8 @@
 
 .home__hero-text-wrapper {
 	max-width: 100%;
-	font-size: 20px;
+	font-size: 1.4em;
+	font-weight: 100;
 	padding-right: 250px;
 	line-height: 1.6;
 	align-items: center;

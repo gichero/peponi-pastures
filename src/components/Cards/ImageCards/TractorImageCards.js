@@ -13,7 +13,7 @@ const TractorImageCards = () => {
 		<div className="cards">
 			<h1 className="cards__headline">Fixing the Tractor</h1>
 			<div className="cards__text__wrapper">
-				<p className="cards_text">
+				<p className="cards__text">
 					Bacon ipsum dolor amet leberkas strip steak porchetta short loin.
 					Hamburger pork loin brisket t-bone. Alcatra pork spare ribs fatback,
 					chicken shankle ham tongue chislic doner ribeye shoulder brisket.
