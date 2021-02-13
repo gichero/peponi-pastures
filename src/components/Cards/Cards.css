@@ -35,9 +35,8 @@
 	display: flex;
 	flex: 1;
 	margin: 0 1.5rem;
-	/* border-radius: 2px;
-	border: 1px solid #228b22; */
-	/* outline-style: solid; */
+	border-radius: 2px;
+	border: 1px solid #228b22;
 }
 
 .cards__item__link {
