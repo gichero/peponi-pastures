@@ -19,6 +19,11 @@ const PeponiLogo = ({
 				className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
 			>
 				<div className="container">
+					<div>
+						<h1 className={lightText ? "heading" : "heading dark"}>
+							{headline}
+						</h1>
+					</div>
 					<div
 						className="row home__hero-row"
 						style={{
@@ -33,10 +38,6 @@ const PeponiLogo = ({
 						</div>
 						<div className="col">
 							<div className="home__hero-text-wrapper">
-								<div></div>
-								<h1 className={lightText ? "heading" : "heading dark"}>
-									{headline}
-								</h1>
 								<p
 									className={
 										lightTextDesc
