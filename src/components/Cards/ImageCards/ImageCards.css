@@ -13,6 +13,18 @@
 	text-align: center;
 }
 
+.cards__text__wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.cards_text {
+	line-height: 1.8em;
+	font-size: 1.6em;
+	font-weight: normal;
+	color: #014421;
+}
+
 .cards__container {
 	flex-flow: column;
 	align-items: center;
