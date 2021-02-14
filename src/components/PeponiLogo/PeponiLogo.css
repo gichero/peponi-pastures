@@ -64,7 +64,7 @@
 }
 
 .home__hero-img {
-	max-width: 100%;
+	max-width: 120%;
 }
 
 img {
@@ -84,9 +84,16 @@ img {
 	.home__hero-text-wrapper {
 		padding: 10px;
 	}
+	.home__hero-img {
+		max-width: 100%;
+	}
 
 	.col {
 		max-width: 100%;
 		flex-basis: 100%;
+	}
+
+	.home__hero-img {
+		max-width: 100%;
 	}
 }
