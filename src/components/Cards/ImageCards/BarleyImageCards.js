@@ -42,19 +42,55 @@ const BarleyImageCards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<ImageCardItem src={barley01} alt="barley01" />
-						<ImageCardItem src={barley02} alt="barley02" />
-						<ImageCardItem src={barley03} alt="barley03" />
+						<ImageCardItem
+							src={barley01}
+							alt="barley01"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={barley02}
+							alt="barley02"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={barley03}
+							alt="barley03"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={barley04} alt="barley04" />
-						<ImageCardItem src={barley05} alt="barley05" />
-						<ImageCardItem src={barley06} alt="barley06" />
+						<ImageCardItem
+							src={barley04}
+							alt="barley04"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={barley05}
+							alt="barley05"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={barley06}
+							alt="barley06"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={barley08} alt="barley08" />
-						<ImageCardItem src={barley09} alt="barley09" />
-						<ImageCardItem src={barley10} alt="barley10" />
+						<ImageCardItem
+							src={barley08}
+							alt="barley08"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={barley09}
+							alt="barley09"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={barley10}
+							alt="barley10"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 				</div>
 			</div>

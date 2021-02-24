@@ -39,14 +39,38 @@ const WaterImageCards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<ImageCardItem src={water01} alt="water01" />
-						<ImageCardItem src={water02} alt="water02" />
-						<ImageCardItem src={water03} alt="water03" />
+						<ImageCardItem
+							src={water01}
+							alt="water01"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={water02}
+							alt="water02"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={water03}
+							alt="water03"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={water04} alt="water04" />
-						<ImageCardItem src={water05} alt="water05" />
-						<ImageCardItem src={water06} alt="water06" />
+						<ImageCardItem
+							src={water04}
+							alt="water04"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={water05}
+							alt="water05"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={water06}
+							alt="water06"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 				</div>
 			</div>

@@ -41,19 +41,51 @@ const ShedImageCards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<ImageCardItem src={shed01} alt="shed01" />
-						<ImageCardItem src={shed02} alt="shed02" />
+						<ImageCardItem
+							src={shed01}
+							alt="shed01"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={shed02}
+							alt="shed02"
+							text="venison ham ribeye buffalo"
+						/>
 						<ImageCardItem src={shed03} alt="shed03" />
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={shed04} alt="shed04" />
-						<ImageCardItem src={shed05} alt="shed05" />
-						<ImageCardItem src={shed07} alt="shed07" />
+						<ImageCardItem
+							src={shed04}
+							alt="shed04"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={shed05}
+							alt="shed05"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={shed07}
+							alt="shed07"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={shed08} alt="shed08" />
-						<ImageCardItem src={shed09} alt="shed09" />
-						<ImageCardItem src={shed11} alt="shed11" />
+						<ImageCardItem
+							src={shed08}
+							alt="shed08"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={shed09}
+							alt="shed09"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={shed11}
+							alt="shed11"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 				</div>
 			</div>

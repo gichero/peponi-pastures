@@ -37,12 +37,28 @@ const TractorImageCards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<ImageCardItem src={tractor01} alt="tractor01" />
-						<ImageCardItem src={tractor02} alt="tractor02" />
+						<ImageCardItem
+							src={tractor01}
+							alt="tractor01"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={tractor02}
+							alt="tractor02"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={tractor03} alt="tractor03" />
-						<ImageCardItem src={tractor04} alt="tractor04" />
+						<ImageCardItem
+							src={tractor03}
+							alt="tractor03"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={tractor04}
+							alt="tractor04"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 				</div>
 			</div>

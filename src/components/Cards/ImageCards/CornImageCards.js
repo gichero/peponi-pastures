@@ -39,14 +39,38 @@ const CornImageCards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<ImageCardItem src={corn01} alt="corn01" />
-						<ImageCardItem src={corn02} alt="corn02" />
-						<ImageCardItem src={corn03} alt="corn03" />
+						<ImageCardItem
+							src={corn01}
+							alt="corn01"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={corn02}
+							alt="corn02"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={corn03}
+							alt="corn03"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={corn04} alt="corn04" />
-						<ImageCardItem src={corn05} alt="corn05" />
-						<ImageCardItem src={corn06} alt="corn06" />
+						<ImageCardItem
+							src={corn04}
+							alt="corn04"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={corn05}
+							alt="corn05"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={corn06}
+							alt="corn06"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 				</div>
 			</div>

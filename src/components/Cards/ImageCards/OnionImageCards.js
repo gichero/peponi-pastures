@@ -42,19 +42,55 @@ const OnionImageCards = () => {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<ImageCardItem src={onions01} alt="onions01" />
-						<ImageCardItem src={onions02} alt="onions02" />
-						<ImageCardItem src={onions03} alt="onions03" />
+						<ImageCardItem
+							src={onions01}
+							alt="onions01"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={onions02}
+							alt="onions02"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={onions03}
+							alt="onions03"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={onions04} alt="onions04" />
-						<ImageCardItem src={onions05} alt="onions05" />
-						<ImageCardItem src={onions06} alt="onions06" />
+						<ImageCardItem
+							src={onions04}
+							alt="onions04"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={onions05}
+							alt="onions05"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={onions06}
+							alt="onions06"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
-						<ImageCardItem src={onions07} alt="onions07" />
-						<ImageCardItem src={onions08} alt="onions08" />
-						<ImageCardItem src={onions09} alt="onions09" />
+						<ImageCardItem
+							src={onions07}
+							alt="onions07"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={onions08}
+							alt="onions08"
+							text="venison ham ribeye buffalo"
+						/>
+						<ImageCardItem
+							src={onions09}
+							alt="onions09"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 				</div>
 			</div>
