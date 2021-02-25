@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import { Link } from "react-router-dom";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
@@ -9,7 +8,7 @@ const ImageCardItem = ({ src, alt, text }) => {
 	return (
 		<>
 			<li className="cards__item-image">
-				<Link className="cards__item__link-image" to="#">
+				<div className="cards__item__link-image">
 					<Zoom>
 						<figure className="cards__item__pic-wrap-image">
 							<img
@@ -26,7 +25,7 @@ const ImageCardItem = ({ src, alt, text }) => {
 					<div className="image_cards__item__info">
 						<h5 className="image_cards__item__text">{text}</h5>
 					</div>
-				</Link>
+				</div>
 			</li>
 		</>
 	);

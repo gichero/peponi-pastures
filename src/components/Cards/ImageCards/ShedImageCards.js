@@ -51,7 +51,11 @@ const ShedImageCards = () => {
 							alt="shed02"
 							text="venison ham ribeye buffalo"
 						/>
-						<ImageCardItem src={shed03} alt="shed03" />
+						<ImageCardItem
+							src={shed03}
+							alt="shed03"
+							text="venison ham ribeye buffalo"
+						/>
 					</ul>
 					<ul className="cards__items">
 						<ImageCardItem
