@@ -6,9 +6,11 @@ import BarleyImageCards from "../components/Cards/ImageCards/BarleyImageCards";
 
 const Barley = () => {
 	return (
-		<div>
-			<BarleyImageCards />
-		</div>
+		<>
+			<div>
+				<BarleyImageCards />
+			</div>
+		</>
 	);
 };
 
