@@ -48,6 +48,7 @@
 	flex: 1;
 	margin: 0 1.5rem;
 	border-radius: 2px;
+	border: 1px solid #228b22;
 }
 
 .cards__item__link-image {
@@ -99,9 +100,15 @@
 	transform: scale(1.1);
 }
 
-.cards__item__info {
+.image_cards__item__info {
 	padding: 20px 10px 30px;
 	text-align: center;
+}
+
+.image_cards__item__text {
+	font-weight: 100;
+	color: #014421;
+	font-size: 1.3em;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -116,7 +123,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-	.cards__item {
+	.cards__item-image {
 		margin-bottom: 2rem;
 	}
 	.cards__text {

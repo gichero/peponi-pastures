@@ -18,14 +18,13 @@ const ImageCardItem = ({ src, alt, text }) => {
 								className="cards__item__img-image"
 								style={{
 									borderRadius: "2px",
-									marginTop: "1em",
 									marginBottom: "1em",
 								}}
 							/>
 						</figure>
 					</Zoom>
-					<div className="cards__item__info">
-						<h5 className="cards__item__text">{text}</h5>
+					<div className="image_cards__item__info">
+						<h5 className="image_cards__item__text">{text}</h5>
 					</div>
 				</Link>
 			</li>
