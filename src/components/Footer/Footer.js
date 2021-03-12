@@ -19,6 +19,19 @@ function Footer() {
 	return (
 		<div className="footer-container">
 			<section className="footer-subscription">
+				<div>
+					<h3>COMPANY INFO:</h3>
+					<h4>Country of Origin :</h4>
+					<p>Kenya</p>
+					<h4>Address:</h4>
+					<p>
+						Peponi Pastures Ltd along Raini Kinungi, rd C67, Maraigushu,
+						Naivasha
+					</p>
+					<h4>Pursuing:</h4>
+					<p>KEPHIS Organic Farming Certification</p>
+					<p>Kenya Dairy Board Certification</p>
+				</div>
 				<p className="footer-subscription-heading">
 					Join the Peponi Pastures newsletter to read about our recent projects
 				</p>
