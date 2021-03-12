@@ -49,6 +49,18 @@ const PeponiLogo = ({
 								</p>
 							</div>
 						</div>
+
+						<div>
+							<h2>How are we moving?</h2>
+							<p>
+								We pride ourselves in quality and a strong ethical culture. Our
+								labor comprises 75% women from our locality and youth, we train
+								and equip them to work for us and for themselves. We have a
+								clear focus of where we are going as a business and this can
+								only be done ethically and sustainably. That there, is our
+								mantra.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
