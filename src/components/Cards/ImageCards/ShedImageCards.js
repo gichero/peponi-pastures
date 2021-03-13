@@ -24,13 +24,15 @@ const ShedImageCards = () => {
 						it. Here is a list of the products you can expect to add to your
 						basket soon:{" "}
 					</p>
-					<ul className="cards__text">
-						<li>Goat milk (raw and pasteurized)</li>
-						<li>Cheese products</li>
-						<li>Yoghurt</li>
-						<li>Goat milk soaps and lotions</li>
-						<li>Pedigree breeding services</li>
-						<li>Lucerne hay, Desmodium hay, Sudan grass hay</li>
+					<ul className="cards__text-ul">
+						<li className="cards__list">Goat milk (raw and pasteurized)</li>
+						<li className="cards__list">Cheese products</li>
+						<li className="cards__list">Yoghurt</li>
+						<li className="cards__list">Goat milk soaps and lotions</li>
+						<li className="cards__list">Pedigree breeding services</li>
+						<li className="cards__list">
+							Lucerne hay, Desmodium hay, Sudan grass hay
+						</li>
 					</ul>
 
 					<p className="cards__text">

@@ -19,16 +19,16 @@ function Footer() {
 	return (
 		<div className="footer-container">
 			<section className="footer-subscription">
-				<div>
-					<h3>COMPANY INFO:</h3>
-					<h4>Country of Origin :</h4>
-					<p>Kenya</p>
+				<div className="footer-subscription-company-info">
+					<h3 className="footer-company-info-heading">COMPANY INFO:</h3>
+					<h4 className="footer-header-four">Country of Origin: Kenya</h4>
+
 					<h4>Address:</h4>
 					<p>
 						Peponi Pastures Ltd along Raini Kinungi, rd C67, Maraigushu,
 						Naivasha
 					</p>
-					<h4>Pursuing:</h4>
+					<h4 className="footer-header-four-pursuing">Pursuing:</h4>
 					<p>KEPHIS Organic Farming Certification</p>
 					<p>Kenya Dairy Board Certification</p>
 				</div>

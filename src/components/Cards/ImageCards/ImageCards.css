@@ -26,6 +26,14 @@
 	color: #014421;
 }
 
+.cards__text-ul {
+	line-height: 1.5em;
+	font-size: 1.6em;
+	font-weight: 100;
+	color: #014421;
+	padding-left: 25px;
+}
+
 .cards__container {
 	flex-flow: column;
 	align-items: center;
@@ -137,6 +145,12 @@
 		margin-bottom: 2rem;
 	}
 	.cards__text {
+		line-height: 1.3em;
+		font-size: 1.4em;
+		font-weight: 100;
+	}
+
+	.cards__text-ul {
 		line-height: 1.3em;
 		font-size: 1.4em;
 		font-weight: 100;
