@@ -3,14 +3,16 @@
 import React from "react";
 import "../App.css";
 import PeponiLogo from "../components/PeponiLogo/PeponiLogo";
+import { PeponiFile } from "./DataFile/Data";
+import Mission from "../components/Mission/Mission";
 import Cards from "../components/Cards/Cards";
 import Footer from "../components/Footer/Footer";
-import { PeponiFile } from "./DataFile/Data";
 
 const Home = () => {
 	return (
 		<>
 			<PeponiLogo {...PeponiFile} />
+			<Mission />
 			<Cards />
 			<Footer />
 		</>

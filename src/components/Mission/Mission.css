@@ -1,0 +1,28 @@
+/** @format */
+
+.mission-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mission__headline {
+	margin-bottom: 20px;
+	font-size: 48px;
+	line-height: 1.1;
+	font-weight: Bold;
+	text-align: center;
+	color: #014421;
+}
+
+.mission__content-wrapper {
+	max-width: 1200px;
+}
+
+.mission__content {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #014421;
+	font-weight: 100;
+}
