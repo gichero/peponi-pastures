@@ -13,7 +13,7 @@ import barley from "../../images/barley.jpg";
 const Cards = () => {
 	return (
 		<div className="cards">
-			<h1 className="cards__headline">Recent Projects</h1>
+			<h1 className="cards__headline">RECENT PROJECTS</h1>
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
